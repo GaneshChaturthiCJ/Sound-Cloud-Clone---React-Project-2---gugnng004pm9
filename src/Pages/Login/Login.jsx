@@ -96,7 +96,7 @@ const Login = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          projectId: "yji0muf36wd4", // Your provided project ID
+          projectId: "gugnng004pm9", // Your provided project ID
         },
         body: JSON.stringify(data),
       });
@@ -135,12 +135,6 @@ const Login = () => {
           />
         </div>
         <div className="sound_cloud-login_container_content">
-          {/* <button className="sound_cloud-login_button_facebook">
-            <span>
-              <FacebookRoundedIcon />
-            </span>
-            <span>Continue With Facebook</span>
-          </button> */}
           <button
             className="sound_cloud-login_button_google"
             onClick={handleGoogle}
